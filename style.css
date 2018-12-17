@@ -1,0 +1,19 @@
+.hidden{
+    display: none;
+}
+#textInput{
+    width: 70%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 22px;
+}
+i{
+    color: red;
+}
+.haveFunMsg{
+    display: none;
+}
