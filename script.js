@@ -15,7 +15,11 @@ function reload() {
 //remove item function
 function removeItem() {
     var removal = prompt("Please type the grocery you'd like to get off the list. " + "\n" + "Exact Spelling:");
-    groceryList.pop(removal);
+    for(var i = groceryList.length; i >= 0; i--){
+        if(groceryList[i] === removal){
+            groceryList.splice(i, 1);
+        }
+    }
 }
 //End remove function
 
